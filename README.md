@@ -43,6 +43,7 @@ Seluruh alat (*tools*) dirancang dengan prinsip *User-Centered Design*, berfokus
 | **Cash Flow Calculator** | Financial Mgmt | Alat kalkulasi arus kas harian/bulanan untuk analisis likuiditas operasional UMKM. | [🚀 Access App](https://sucii-hub.github.io/kalkulator-cashflow/) |
 | **BEP Calculator** | Business Analysis | Alat analisis proyeksi titik impas berdasarkan struktur biaya tetap dan biaya variabel. | [🚀 Access App](https://sucii-hub.github.io/bep-calculator/) |
 | **Discount & Margin Calculator** | E-Commerce | Alat evaluasi harga promo & indikator risiko profitabilitas toko online secara real-time. | [🚀 Access App](https://sucii-hub.github.io/kalkulator-diskon/) |
+| **Engagement Rate Calculator** | Digital Marketing | Alat ukur performa keterikatan audiens media sosial berbasis standar benchmark industri. | [🚀 Access App](https://sucii-hub.github.io/er-calculator/) |
 
 ---
 
