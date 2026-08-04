@@ -172,6 +172,72 @@
             font-size: 0.85rem;
         }
     </style>
+    /* Styling Kartu Portofolio Modern & Natural */
+.project-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  border-color: #f3a683; /* Sentuhan warna warm pastel */
+}
+
+.tag-container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 12px 0 16px 0;
+}
+
+.tag {
+  background-color: #fff0f0;
+  color: #e55039;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2d3436;
+  margin-bottom: 8px;
+}
+
+.project-desc {
+  color: #636e72;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn-project {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #2d3436;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.btn-project:hover {
+  background-color: #e55039;
+}
 </head>
 <body>
 
@@ -201,8 +267,8 @@
                 <span class="skill-tag">HTML & CSS Dasar</span>
                 <span class="skill-tag">Microsoft Office / Google Workspace</span>
             </div>
-        </section>
-
+            <div class="projects-grid">
+ 
         <!-- Proyek Saya -->
         <section class="section">
             <h2>Proyek & Portofolio</h2>
@@ -217,7 +283,48 @@
                 </div>
             </div>
         </section>
+<div class="projects-grid">
+    
+  <!-- Proyek 2: CSAT Survey -->
+  <div class="project-card">
+    <div>
+      <h3 class="project-title">📊 Customer Satisfaction (CSAT) Survey</h3>
+      <div class="tag-container">
+        <span class="tag">CRM & CS</span>
+        <span class="tag">HTML/CSS</span>
+        <span class="tag">Formspree API</span>
+      </div>
+      <p class="project-desc">
+        Sistem formulir umpan balik interaktif berbasis web untuk mengukur tingkat kepuasan pelanggan secara real-time. Dilengkapi pemilihan rating emoji yang ramah pengguna serta integrasi notifikasi otomatis ke email.
+      </p>
+    </div>
+    <div>
+      <a href="https://sucii-hub.github.io/survey-csat/" target="_blank" class="btn-project">
+        Coba Demo Live 🚀
+      </a>
+    </div>
+  </div>
 
+  <!-- Proyek 3: Kalkulator Cash Flow -->
+  <div class="project-card">
+    <div>
+      <h3 class="project-title">💰 Cash Flow Calculator</h3>
+      <div class="tag-container">
+        <span class="tag finance">Keuangan</span>
+        <span class="tag finance">Manajemen Bisnis</span>
+        <span class="tag finance">JavaScript</span>
+      </div>
+      <p class="project-desc">
+        Alat bantu perhitungan arus kas harian dan bulanan untuk UMKM/bisnis digital. Memudahkan pencatatan pemasukan, pengeluaran, serta analisis saldo kas secara praktis dan akurat.
+      </p>
+    </div>
+    <div>
+      <a href="https://sucii-hub.github.io/kalkulator-cashflow/" target="_blank" class="btn-project">
+        Coba Demo Live 🚀
+      </a>
+    </div>
+  </div>
+</div>
         <!-- Kontak -->
         <section class="section">
             <h2>Hubungi Saya</h2>
