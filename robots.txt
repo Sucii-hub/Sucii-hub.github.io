@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sucii-hub.github.io/sitemap.xml
